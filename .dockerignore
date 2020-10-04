@@ -2,5 +2,5 @@
 !Makefile
 !*.c
 !*.h
-!config.txt
+!CipesAtHome/config.txt
 !entrypoint.sh

@@ -30,7 +30,7 @@ RUN apk add --no-cache \
     libconfig \
     sed
 
-COPY --from=builder /app/recipesAtHome /app/config.txt /app/
+COPY --from=builder /app/recipesAtHome /app/CipesAtHome/config.txt /app/
 
 # backwards compatibility (from https://success.docker.com/article/use-a-script-to-initialize-stateful-container-data)
 COPY entrypoint.sh /usr/local/bin/docker-entrypoint.sh
